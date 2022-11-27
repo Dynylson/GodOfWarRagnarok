@@ -1,11 +1,11 @@
-import Image from "next/image";
-import logo from "../assets/logo.svg";
 import { Header } from "../components/Header";
+import { PreOrder } from "../components/PreOrder";
 
 export default function Home() {
-    return (
-        <>
-            <Header />
-        </>
-    );
+  return (
+    <>
+      <Header />
+      <PreOrder />
+    </>
+  );
 }
