@@ -5,10 +5,8 @@ export function PreOrder() {
   return (
     <Box
       bg="url('/images/background_start.png') no-repeat center / cover"
-      bgSize="cover"
-      bgRepeat="no-repeat"
       height="800px"
-      w="100%"
+      maxWidth="100%"
     >
       <Flex
         maxWidth={1400}
@@ -53,6 +51,7 @@ export function PreOrder() {
               px="36px"
               borderRadius={0}
               fontWeight="bold"
+              textDecoration="none"
             >
               Comprar na pré-venda
             </Link>

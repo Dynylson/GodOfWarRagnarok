@@ -17,23 +17,23 @@ export function GameInfo() {
           </Flex>
           <Flex flexDirection="column" alignItems="center" gap="10px">
             <Image src="/icons/image2.svg" width={28} height={28} alt="Icone" />
-            <Text>Jogo offline habilitado</Text>
+            <Text>1 Jogador</Text>
           </Flex>
           <Flex flexDirection="column" alignItems="center" gap="10px">
             <Image src="/icons/image3.svg" width={28} height={28} alt="Icone" />
-            <Text>Jogo offline habilitado</Text>
+            <Text>Compatível com uso remoto</Text>
           </Flex>
           <Flex flexDirection="column" alignItems="center" gap="10px">
             <Image src="/icons/image4.svg" width={28} height={28} alt="Icone" />
-            <Text>Jogo offline habilitado</Text>
+            <Text>Função de vibração necessária</Text>
           </Flex>
           <Flex flexDirection="column" alignItems="center" gap="10px">
             <Image src="/icons/image5.svg" width={28} height={28} alt="Icone" />
-            <Text>Jogo offline habilitado</Text>
+            <Text>Efeito gatilho necessário</Text>
           </Flex>
           <Flex flexDirection="column" alignItems="center" gap="10px">
             <Image src="/icons/image6.svg" width={28} height={28} alt="Icone" />
-            <Text>Jogo offline habilitado</Text>
+            <Text>Compatível com a ajuda do jogo</Text>
           </Flex>
         </Flex>
       </Flex>
