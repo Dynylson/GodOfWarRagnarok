@@ -39,6 +39,7 @@ export function PreOrder() {
               bg="white.900"
               color="black.900"
               fontWeight="bold"
+              fontSize="20px"
               py="18px"
               px="36px"
             >
@@ -50,8 +51,12 @@ export function PreOrder() {
               py="18px"
               px="36px"
               borderRadius={0}
+              fontSize="20px"
               fontWeight="bold"
-              textDecoration="none"
+              _hover={{
+                textDecoration: "none",
+                background: "#5380f5",
+              }}
             >
               Comprar na pré-venda
             </Link>

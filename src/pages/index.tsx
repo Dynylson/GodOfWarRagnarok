@@ -1,4 +1,5 @@
 import { Characters } from "../components/Characters";
+import { CharactersSlide } from "../components/CharactersSlide";
 import { GameInfo } from "../components/GameInfo";
 import { Header } from "../components/Header";
 import { PreOrder } from "../components/PreOrder";
@@ -12,6 +13,7 @@ export default function Home() {
       <GameInfo />
       <Sinopse />
       <Characters />
+      <CharactersSlide />
     </>
   );
 }
